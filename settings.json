@@ -1,0 +1,66 @@
+{
+  "workbench.colorTheme": "Default Dark+",
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.lineNumbers": "relative",
+  "window.menuBarVisibility": "toggle",
+  "editor.cursorSurroundingLines": 10,
+
+  "git.confirmSync": false,
+  "editor.minimap.enabled": false,
+  "workbench.activityBar.visible": false,
+  "editor.formatOnSave": true,
+
+  "markdown-preview-enhanced.previewTheme": "github-dark.css",
+  "markdown-preview-enhanced.enableScriptExecution": true,
+  "markdown-preview-enhanced.enableExtendedTableSyntax": true,
+
+  "vim.useSystemClipboard": true,
+  "vim.foldfix": true,
+  "vim.leader": "<space>",
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["<leader>", "l"],
+      "commands": ["workbench.action.focusRightGroup"]
+    },
+    {
+      "before": ["<leader>", "k"],
+      "commands": ["workbench.action.focusAboveGroup"]
+    },
+    {
+      "before": ["<leader>", "j"],
+      "commands": ["workbench.action.focusBelowGroup"]
+    },
+    {
+      "before": ["<leader>", "h"],
+      "commands": ["workbench.action.focusLeftGroup"]
+    },
+
+    {
+      "before": ["<leader>", "v", "l"],
+      "commands": ["workbench.action.moveEditorToRightGroup"]
+    },
+    {
+      "before": ["<leader>", "v", "k"],
+      "commands": ["workbench.action.moveEditorToAboveGroup"]
+    },
+    {
+      "before": ["<leader>", "v", "j"],
+      "commands": ["workbench.action.moveEditorToBelowGroup"]
+    },
+    {
+      "before": ["<leader>", "v", "h"],
+      "commands": ["workbench.action.moveEditorToLeftGroup"]
+    },
+
+    {
+      "before": ["<leader>", "g"],
+      "commands": ["workbench.action.gotoSymbol"]
+    },
+  ],
+  "vim.handleKeys": {
+    "<C-w>": false,
+    "<C-b>": false,
+    "<C-k>": false,
+    "<C-/>": false,
+  }
+}
