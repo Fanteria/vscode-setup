@@ -45,7 +45,7 @@
         "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
     },
     {
-        "key": "space",
+        "key": "enter",
         "command": "acceptAlternativeSelectedSuggestion",
         "when": "suggestWidgetVisible && textInputFocus"
     },
