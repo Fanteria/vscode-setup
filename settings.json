@@ -6,13 +6,15 @@
   "editor.cursorSurroundingLines": 10,
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.vertical": "hidden",
+  "editor.scrollbar.verticalScrollbarSize": 2,
+  "editor.hideCursorInOverviewRuler": true,
 
   "git.confirmSync": false,
   "editor.minimap.enabled": false,
   "workbench.activityBar.visible": false,
   "editor.formatOnSave": true,
 
-  "markdown-preview-enhanced.previewTheme": "github-dark.css",
+  "markdown-preview-enhanced.previewTheme": "atom-dark.css",
   "markdown-preview-enhanced.enableScriptExecution": true,
   "markdown-preview-enhanced.enableExtendedTableSyntax": true,
 
