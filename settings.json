@@ -4,6 +4,8 @@
   "editor.lineNumbers": "relative",
   "window.menuBarVisibility": "toggle",
   "editor.cursorSurroundingLines": 10,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
 
   "git.confirmSync": false,
   "editor.minimap.enabled": false,
@@ -62,5 +64,8 @@
     "<C-b>": false,
     "<C-k>": false,
     "<C-/>": false,
-  }
+  },
+  "clang.cxxflags": [
+    "[\"-std=c++17\"]"
+  ]
 }
