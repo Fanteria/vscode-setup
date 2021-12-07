@@ -69,5 +69,6 @@
   },
   "clang.cxxflags": [
     "[\"-std=c++17\"]"
-  ]
+  ],
+  "cSpell.language": "en,cs"
 }
