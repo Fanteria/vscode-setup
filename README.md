@@ -11,3 +11,4 @@ Here is a list of extensions that I'm using, but without extensions for language
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - [REST Client](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - [Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
+- [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
