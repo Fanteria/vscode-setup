@@ -1,7 +1,7 @@
 # VS Code settings
 This repository contains files for my setup of workspace in VS Code. I'm using a few extensions (_listed below_) of which is the most important Vim emulation for VS Code. Disclaimer: If you don't know what is vim, first check it before you experiment.
 
-I using [VS Codium](https://vscodium.com) not VS Code. Why? Why not, almost the same (_only a few available packages is different_) and it's open-source.
+I using [VS Codium](https://vscodium.com) not VS Code. Why? Why not, almost the same (_only a few available packages are different_) and it's open-source.
 
 ## Extensions
 Here is a list of extensions that I'm using, but without extensions for languages. Some of them have more popular alternatives, but those alternatives are not available on VS Codium.
