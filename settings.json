@@ -38,6 +38,14 @@
       "before": ["<leader>", "h"],
       "commands": ["workbench.action.focusLeftGroup"]
     },
+    {
+      "before": ["<leader>", "o"],
+      "after": ["a", "<enter>", "<esc>"]
+    },
+    {
+      "before": ["<leader>", "O"],
+      "after": ["l", "v", "$", "h", "x", "O", "<esc>", "P"]
+    },
 
     {
       "before": ["<leader>", "v", "l"],
@@ -70,5 +78,9 @@
   "clang.cxxflags": [
     "[\"-std=c++17\"]"
   ],
-  "cSpell.language": "en,cs"
+  "cSpell.language": "en,cs",
+  "cSpell.userWords": [
+    "promenna"
+  ],
+  "explorer.confirmDelete": false
 }
