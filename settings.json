@@ -242,9 +242,9 @@
     "editorCursor.background": "#676761",
     "editorCursor.foreground": "#cfd1cd",
 
-    "editorError.background": "#00ffff",
-    "editorError.border": "#ff0000",
-    "editorError.foreground": "#ff0000",
+    "editorError.background": "#de334f55",
+    "editorError.border": "#0000",
+    "editorError.foreground": "#de334f",
     "editorGhostText.background": "#ff00ff",
     "editorGhostText.border": "#ff0000",
     "editorGhostText.foreground": "#ff0000",
