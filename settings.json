@@ -134,7 +134,7 @@
 
     "debugConsole.infoForeground": "#ff0000",
     "debugConsole.sourceForeground": "#ff0000",
-    "debugConsole.warningForeground": "#ff0000",
+    "debugConsole.warningForeground": "#ccb956",
     "debugConsoleInputIcon.foreground": "#ff0000",
     "debugConsole.errorForeground": "#ff0000",
     "debugExceptionWidget.background": "#ff0000",
