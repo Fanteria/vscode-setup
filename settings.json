@@ -274,9 +274,9 @@
 
     "editorIndentGuide.activeBackground": "#353d3a",
     "editorIndentGuide.background": "#353d3a",
-    "editorInfo.background": "#ff00ff",
-    "editorInfo.border": "#ff0000",
-    "editorInfo.foreground": "#ff0000",
+    "editorInfo.background": "#de334f55",
+    "editorInfo.border": "#0000",
+    "editorInfo.foreground": "#de334f",
     "editorInlayHint.background": "#ff00ff",
     "editorInlayHint.foreground": "#ff0000",
     "editorInlayHint.parameterBackground": "#ff00ff",
