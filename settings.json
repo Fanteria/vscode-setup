@@ -3,18 +3,19 @@
   "security.workspace.trust.untrustedFiles": "open",
   "editor.lineNumbers": "relative",
 
-  "window.menuBarVisibility": "classic",
+  "window.menuBarVisibility": "hidden",
 
-  "editor.cursorSurroundingLines": 10,
-  "editor.scrollbar.horizontal": "visible",
-  "editor.scrollbar.vertical": "visible",
-  "editor.scrollbar.verticalScrollbarSize": 30,
+  "editor.cursorSurroundingLines": 1,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.scrollbar.verticalScrollbarSize": 5,
+  "editor.tabSize": 4,
 
   "editor.hideCursorInOverviewRuler": false,
 
   "git.confirmSync": false,
 
-  "editor.minimap.enabled": true,
+  "editor.minimap.enabled": false,
   "editor.inlayHints.enabled": true,
 
   "workbench.activityBar.visible": true,
@@ -80,14 +81,19 @@
     "<C-b>": false,
     "<C-k>": false,
     "<C-/>": false,
+    "<C-f>": false,
+    "<C-h>": false,
   },
   "clang.cxxflags": [
     "[\"-std=c++17\"]"
   ],
   "cSpell.language": "en,cs",
   "cSpell.userWords": [
+    "angulární",
     "GPIB",
-    "promenna"
+    "promenna",
+    "reprogramovatelné",
+    "SCARA"
   ],
   "explorer.confirmDelete": false,
   "terminal.integrated.fontFamily": "monospace",
@@ -715,7 +721,7 @@
   },
 
   "editor.tokenColorCustomizations": {
-    "comments": "#2f5536",
+    "comments": "#676761",
     "functions": "#175696",
     "keywords": "#b94183",
     "numbers": "#ccb956",
