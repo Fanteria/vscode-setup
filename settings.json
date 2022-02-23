@@ -683,11 +683,11 @@
     "testing.peekHeaderBackground": "#ff0000",
     "testing.runAction": "#ff0000",
 
-    "textBlockQuote.background": "#fff000",
-    "textBlockQuote.border": "#fff000",
-    "textCodeBlock.background": "#fff000",
-    "textLink.activeForeground": "#fff000",
-    "textLink.foreground": "#fff000",
+    "textBlockQuote.background": "#2f553666",
+    "textBlockQuote.border": "#33963c",
+    "textCodeBlock.background": "#ff00ff",
+    "textLink.activeForeground": "#177696",
+    "textLink.foreground": "#12a9b6",
     "textPreformat.foreground": "#fff000",
     "textSeparator.foreground": "#fff000",
 
