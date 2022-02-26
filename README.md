@@ -12,3 +12,4 @@ Here is a list of extensions that I'm using, but without extensions for language
 - [REST Client](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - [Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
 - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
+- [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)
