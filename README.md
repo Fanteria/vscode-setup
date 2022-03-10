@@ -6,7 +6,7 @@ I using [VS Codium](https://vscodium.com) not VS Code. Why? Why not, almost the 
 ## Extensions
 Here is a list of extensions that I'm using, but without extensions for languages. Some of them have more popular alternatives, but those alternatives are not available on VS Codium.
 
-- [JSDoc Generator](https://marketplace.visualstudio.com/items?itemName=kimlimjustin.jsdoc-generator)
+- [Doxygen Documentation Generator](https://open-vsx.org/extension/cschlosser/doxdocgen)
 - [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - [REST Client](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
