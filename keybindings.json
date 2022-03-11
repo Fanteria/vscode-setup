@@ -16,6 +16,10 @@
         "command": "workbench.action.terminal.toggleTerminal"
     },
     {
+        "key": "ctrl+shift+l",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
         "key": "ctrl+shift+o",
         "command": "-workbench.action.gotoSymbol"
     },
@@ -64,29 +68,4 @@
         "command": "-selectprevsuggestion",
         "when": "suggestwidgetmultiplesuggestions && suggestwidgetvisible && textinputfocus"
     },
-    {
-        "key": "ctrl+[",
-        "command": "editor.action.commentLine",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+/",
-        "command": "-editor.action.commentLine",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+shift+[",
-        "command": "toggleExplainMode",
-        "when": "suggestWidgetVisible"
-    },
-    {
-        "key": "ctrl+/",
-        "command": "-toggleExplainMode",
-        "when": "suggestWidgetVisible"
-    },
-    {
-        "key": "ctrl+shift+[",
-        "command": "-editor.fold",
-        "when": "editorTextFocus && foldingEnabled"
-    }
 ]
