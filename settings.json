@@ -3,13 +3,16 @@
   "security.workspace.trust.untrustedFiles": "open",
   "editor.lineNumbers": "relative",
 
-  "window.menuBarVisibility": "hidden",
+  "window.menuBarVisibility": "toggle",
+  "window.titleBarStyle": "custom",
 
   "editor.cursorSurroundingLines": 1,
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.vertical": "hidden",
   "editor.scrollbar.verticalScrollbarSize": 5,
   "editor.tabSize": 4,
+  "editor.fontLigatures": "'ss02', 'ss03', 'cv16', 'cv29'",
+  "editor.fontFamily": "Fira Code",
 
   "editor.hideCursorInOverviewRuler": false,
 
@@ -18,7 +21,7 @@
   "editor.minimap.enabled": false,
   "editor.inlayHints.enabled": true,
 
-  "workbench.activityBar.visible": true,
+  "workbench.activityBar.visible": false,
   "editor.formatOnSave": true,
 
   "markdown-preview-enhanced.previewTheme": "atom-dark.css",
@@ -70,10 +73,14 @@
       "before": ["<leader>", "v", "h"],
       "commands": ["workbench.action.moveEditorToLeftGroup"]
     },
-
     {
       "before": ["<leader>", "g"],
       "commands": ["workbench.action.gotoSymbol"]
+    },
+    {
+      "before": ["<leader>", "c"],
+      "commands": ["editor.action.commentLine"],
+      "when": ["!editrReadonly"]
     },
   ],
   "vim.handleKeys": {
@@ -84,16 +91,14 @@
     "<C-f>": false,
     "<C-h>": false,
   },
-  "clang.cxxflags": [
-    "[\"-std=c++17\"]"
-  ],
   "cSpell.language": "en,cs",
   "cSpell.userWords": [
     "angulární",
     "GPIB",
+    "paralelizaci",
     "promenna",
     "reprogramovatelné",
-    "SCARA"
+    "SCARA",
   ],
   "explorer.confirmDelete": false,
   "terminal.integrated.fontFamily": "monospace",
@@ -721,6 +726,14 @@
   },
 
   "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ],
     "comments": "#676761",
     "functions": "#175696",
     "keywords": "#b94183",
@@ -728,5 +741,9 @@
     "strings": "#33963c",
     "types": "#12a9b6",
     "variables": "#c1b381",
-  }
+  },
+
+  "clangd.arguments": [
+    "--log=verbose",
+  ],
 }
