@@ -14,3 +14,4 @@ Here is a list of extensions that I'm using, but without extensions for language
 - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 - [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)
 - [Todo Tree](https://open-vsx.org/extension/Gruntfuggly/todo-tree)
+- [CodeLLDB](https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb)
